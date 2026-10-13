@@ -6,3 +6,6 @@ kubectl get pods -o wide
 
 # Describe a pod
 kubectl describe pod nginx
+
+# Command to create a pod using yaml file
+kubectl create -f pod-definition.yml

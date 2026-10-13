@@ -1,0 +1,6 @@
+# Key parameters of pod definition yaml file
+
+apiVersion: v1
+kind: Pod
+metadata: << Can have the name of the pod and additional details such as labels, tags etc. >>
+spec: << Contains the containers specification >>
