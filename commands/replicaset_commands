@@ -1,0 +1,17 @@
+# Command to get the number of ReplicationController
+kubectl get replicationcontroller
+
+# Command to get the ReplicaSets
+kubectl get replicaset
+
+# Command to scale the replicasets
+
+kubectl scale --replica=6 -f replica-set.yaml
+
+kubectl scale --replica=6 replicaset example_replicaset (where `replicaset` defines the TYPE and the `example_replicaset` define the name of the replicaset)
+
+# Command to delete a replicaset
+kubectl delete replicaset example_replicaset
+
+# Replace a replica set
+kubectl replace -f replica-set.yaml
