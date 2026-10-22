@@ -1,0 +1,8 @@
+# Command to check the rollback status
+kubectl rollback status deployment/mydeployment
+
+# Command to check the history of the rollout
+kubectl rollout history deployment/mydeployment
+
+# Command to undo a rollout
+kubectl rollout undo deployment mydeployment
